@@ -449,7 +449,7 @@ aside .content-wrapper .email-form {
   Footer
   ======================================================================*/
 footer .content-wrapper {
-  width: 320px;
+  width: 65%;
   margin: 100px 0;
 }
 
@@ -460,11 +460,11 @@ footer .content-wrapper {
 }
 
 footer .contact {
-  margin-bottom: 90px;
+  margin-bottom: 0px;
 }
 
 footer .copyright {
-  width: 200px;
+  width: 100%;
 }
 
 /* =======================================================================
@@ -495,15 +495,87 @@ footer .copyright {
 /* =======================================================================
   FAQ Page
   ======================================================================*/
-.faq-content {
-  flex-basis: 45%;
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
+
+@media only screen and (min-width:1200px) {
+/* ============================================================================
+Desktop Styles
+============================================================================= */
+.content-wrapper {
+  max-width: 960px;
+}
+
+/*  Hero Area */
+.hero-area h1 {
+  width: 56%;
+}
+
+/*  Aside  */
+aside .content-wrapper {
+  justify-content: space-between;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .email-form {
+  width: 27%;
 }
 
 
-@media only screen and (min-width: 1200px) {
-  /* Desktop styles here  */
+/*  Features  */
+.features h2 {
+  width: 73%;
 }
 
+.features article {
+  flex-basis: 33%;
+}
+
+/*  Reviews  */
+.reviews article div {
+  width: 50%;
+}
+
+/* ===========================================================================
+About Page
+============================================================================== */
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 100%;
+}
+
+/* ===========================================================================
+FAQ Page
+============================================================================== */
+.faq h2 {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
