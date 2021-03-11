@@ -86,6 +86,63 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*------------------------- General Styles -------------------------------*/
+  html {
+    font-size: 16px;
+  }
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  font-style: normal;
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  line-height: 2.68em;
+}
+
+h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  line-height: 2.18em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.5em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+
+}
+
+.content-wrapper {
+
+}
+
+
+
+
+
 /*---------------------- Base Header and Footer Styles ----------------------*/
 
 header,
